@@ -33,7 +33,7 @@ module.exports = (app) => {
       res.json(true);
 
       fs.writeFile('./db/db.json', JSON.stringify(noteData), (err) =>
-          err ? console.error(err) : console.log('success')
+          err ? console.error(err) : console.log('success post')
       );
   });   // end of app.post
 
@@ -44,7 +44,7 @@ module.exports = (app) => {
     noteData.splice(i, 1);
 
     fs.writeFile('./db/db.json', JSON.stringify(noteData), (err) =>
-      err ? console.error(err) : console.log('success')
+      err ? console.error(err) : console.log('success delete')
     );
     res.json(noteData);
 
