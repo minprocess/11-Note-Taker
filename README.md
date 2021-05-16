@@ -1,14 +1,7 @@
 # 11-GOAT-Note-Taker
 ## Description
-This application is used to write and save notes. The server side is based on Express. The app on Heroku,  Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+This application, Note-Taker, can be used to write and save notes. The server side is based on Express web framework (Node.js/JavaScript). Notes are saved on the server in a JSON file. If two people or more use this app to save notes the notes will be mingled together. The app on is deployed on Heroku.com as note-taker-wtp.
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Installation](#installation)

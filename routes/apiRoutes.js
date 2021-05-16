@@ -36,4 +36,17 @@ module.exports = (app) => {
           err ? console.error(err) : console.log('success')
       );
   });   // end of app.post
-}
+
+  app.delete('/api/notes/:id', (req, res) => {
+
+    const { id } = req.params;
+    const i = noteData.findIndex(p => p.id == id);
+    noteData.splice(i, 1);
+
+    fs.writeFile('./db/db.json', JSON.stringify(noteData), (err) =>
+      err ? console.error(err) : console.log('success')
+    );
+    res.json(noteData);
+
+  }); // end of app.delete
+} // end of module.eports
