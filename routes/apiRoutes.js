@@ -37,11 +37,11 @@ module.exports = (app) => {
       );
   });   // end of app.post
 
+  // Note the colon : in front of id. The presence of the colon means that the id could be any length
   app.delete('/api/notes/:id', (req, res) => {
-
     const { id } = req.params;
     const i = noteData.findIndex(p => p.id == id);
-    noteData.splice(i, 1);
+    noteData.splice(i, 1);  // remove note
 
     fs.writeFile('./db/db.json', JSON.stringify(noteData), (err) =>
       err ? console.error(err) : console.log('success delete')
