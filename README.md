@@ -12,9 +12,9 @@ The functioning website deployed on Heroku is here (https://note-taker-wtp.herok
 
 ## Usage
 The notes are stored in a single file, db.json. That means if you use it on Heroku your notes will be mingled with anyone else that uses this app.
-
+![Welcome screen of Note Taker](https://github.com/minprocess/11-Note-Taker/public/assets/welcome-screen.png)
 Here is a link to a screenshot of the app but because this doc is Markdown, the image probably will not show.<br>
-![Screenshot of Note Taker](https://github.com/minprocess/11-Note-Taker/public/assets/screenshot.png)
+![Screenshot of Note Taker](https://github.com/minprocess/11-Note-Taker/public/assets/note-taker-screenshot.png)
 <br>
 
 ## Credits
