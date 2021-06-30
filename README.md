@@ -6,7 +6,9 @@ This application, Note-Taker, can be used to write and save notes. The server si
 ## Installation
 The GitHub repository for this application is here (https://github.com/minprocess/11-Note-Taker)
 
-Two npm packages need to be installed, Express (https://www.npmjs.com/package/express) (the server) and uuid (https://www.npmjs.com/package/uuid) for generating unique ids for the notes (so two notes with same title and text can be safely deleted)
+Two npm packages need to be installed, Express (https://www.npmjs.com/package/express) (the server) and uuid (https://www.npmjs.com/package/uuid) for generating unique ids for the notes (so two notes with same title and text can be safely deleted).
+
+This app is deployed to Heroku from the GitHub repo. After pushing changes to GitHub it may take a minute or more to migrate the changes to Heroku.
 
 The functioning website deployed on Heroku is here (https://note-taker-wtp.herokuapp.com/)
 
